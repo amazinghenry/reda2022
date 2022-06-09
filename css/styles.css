@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --tmyellow: #FDB000;
+    --tmblue: #24215B;
+  }
+
+
+.tm-logo-main {
+    width:150px;
+}
+
+.reda-title {
+    font-weight: 800;
+    color: var(--tmyellow);
+}
+
+.discovery {
+    font-size: 48px;
+    color: var(--tmyellow);
+    margin-top: 0px;
+}
+
+.form-section {
+    background:#dbdbdb;
+    padding:50px;
+}
+
+.sub-theme {
+    padding: 50px;
+}
+
+.icon img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.discovery{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px;
+    
+}
+
+.v-bg {
+    background: var(--tmyellow);
+    padding: 40px;
+}
+
+.sponsors {
+    padding: 40px;
+    
+}
+
+
+.card-text li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.btn-blue {
+    background: var(--tmblue) !important;
+    color:#fff !important;
+}
+
+.ticketbutton {
+    font-size: 10px;
+}
+
+.ticket-container {
+    background: #cfcfcf;
+    padding: 50px 0;
+}
+
+.post-event-report {
+   text-align: center;
+   margin: 15px 0;
+   color: var(--tmblue);
+}
+
+.speakers-container {
+    padding:50px 0;
+    background: #e5e5e5;
+}
+
+.speaker-group {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.speaker-group a {
+    text-decoration: none;
+    color: var(--tmblue);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.speaker-group p {
+    font-size: 13px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 460px) {
+    .speaker-group img {
+        max-width: 180px;
+    }
+}
+
+.form-area {
+    background: var(--tmblue);
+}
+
+.reserve {
+    padding: 40px;
+}
+
+.reserve h4 {
+    color:#fff;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
